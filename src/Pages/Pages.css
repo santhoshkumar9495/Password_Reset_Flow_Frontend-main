@@ -1,0 +1,77 @@
+.loginscreen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron1{
+    border: 1px solid rgb(176, 174, 174);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(59, 59, 74, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 2%;
+    width: 30%;
+}
+.jumbotron2{
+    margin: 5%;
+    border: 1px solid rgb(176, 174, 174);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(59, 59, 74, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 2%;
+}
+.profilepicturediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-cropper {
+    width: 130px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 3%;
+    /* border: 1px solid black; */
+}
+
+.image-cropper2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    /* margin-bottom: 3%; */
+    /* border: 1px solid black; */
+}
+
+
+
+.profile-pic {
+    display: flex;
+    justify-content: center; 
+    /* margin: 0 auto; */
+    height: 100%;
+    width: auto;
+}
+.anchorlink{
+    text-decoration: none;
+    color: blue;
+}
+.closebuttonx{
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .jumbotron1{
+        width: 80%;
+    }
+    }
+
+@media only screen and (max-width: 700px) {
+    .jumbotron1{
+        width: fit-content;
+    }
+    }
